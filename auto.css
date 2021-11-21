@@ -1,0 +1,101 @@
+body {
+    background: rgb(249, 233, 233);
+    overflow-x: hidden;
+    margin: 0px;
+  }
+  .autobiography{
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .autobiography-title{
+    font-family: "Berkshire Swash", cursive;
+    font-size: 12vh;
+    position: relative;    
+    width: 100%;    
+    align-items: center;
+    color: rgb(179, 133, 65);
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .backHome-btn-back{
+      width: 100%;
+      height:10vh;
+      display: flex;
+      justify-content: center;
+      margin-top: 2vh;
+    align-items: center;
+    position: relative;
+  }
+  .backHome-btn{
+    font-family: "Berkshire Swash", cursive;
+    height: 5vh;
+    border-radius: 10px;
+    background: rgba(228, 211, 215, 0.6);
+    border:none;
+    padding:1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    color: rgba(112, 102, 104, 0.7);
+    font-size: 16px;
+    box-shadow: 5px 2px 8px rgb(200 180 185), -5px -2px 8px rgb(255 255 255);
+    animation: btnEffect 1.2s forwards;
+  }
+  .backHome-btn:hover {
+    cursor: pointer;
+    background: rgba(228, 211, 215);
+    color: rgba(112, 102, 104);
+    box-shadow: none;
+  }
+  @keyframes btnEffect {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .autobiography-content-back{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+    padding-bottom: 5vh;    
+  }
+  .autobiography-content{
+    position: relative;
+    width: 85%;    
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    flex-direction: column;
+    padding:3vh;
+   margin-top: 5vh;
+  }
+  .auto-content-title{    
+    color: rgba(112, 102, 104);
+    font-size: 7vh;
+    font-weight: 900;
+  }
+  .auto-content{
+    margin-top: 2vh;
+    color: rgba(112, 102, 104);
+    font-size: 14px;
+    text-align: left;
+    width:95%;
+  }
+  .text-bold{
+      margin-top: 1.5vh;
+      font-weight: bold;
+  }
+  .text-red{
+    color: rgb(241, 18, 62);
+  }
+  @media screen and (max-width: 760px) {
+    .autobiography-title{
+        font-size: 7vh;
+    }
+  }
